@@ -1,0 +1,337 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 157119S12701
+#
+DEF 157119S12701 LED 0 40 Y Y 1 F N
+F0 "LED" 0 -550 50 H V C CNN
+F1 "157119S12701" 0 550 50 H V C CNN
+F2 "project-local:WL-T7DS_13x10x7" 0 -625 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 95 -115 14 0 1 0 F
+T 0 10 95 20 0 1 1 A Normal 0 C C
+T 0 100 65 20 0 1 1 B Normal 0 C C
+T 0 90 -55 20 0 1 1 C Normal 0 C C
+T 0 -10 -85 20 0 1 1 D Normal 0 C C
+T 0 140 -115 20 0 1 1 DP Normal 0 C C
+T 0 -100 -55 20 0 1 1 E Normal 0 C C
+T 0 -90 65 20 0 1 1 F Normal 0 C C
+T 0 0 35 20 0 1 1 G Normal 0 C C
+S -200 500 200 -500 1 1 10 f
+P 2 1 1 20 -60 -15 -70 -95 N
+P 2 1 1 20 -50 -115 30 -115 N
+P 2 1 1 20 -50 105 -60 25 N
+P 2 1 1 20 -40 5 40 5 N
+P 2 1 1 20 -30 125 50 125 N
+P 2 1 1 20 60 -15 50 -95 N
+P 2 1 1 20 70 105 60 25 N
+P 2 1 1 20 350 -65 350 -65 N
+X G 1 -300 -300 100 R 50 50 1 1 I
+X A 10 -300 300 100 R 50 50 1 1 I
+X F 2 -300 -200 100 R 50 50 1 1 I
+X K 3 300 -300 100 L 50 50 1 1 I
+X E 4 -300 -100 100 R 50 50 1 1 I
+X D 5 -300 0 100 R 50 50 1 1 I
+X DP 6 -300 -400 100 R 50 50 1 1 I
+X C 7 -300 100 100 R 50 50 1 1 I
+X K 8 300 -400 100 L 50 50 1 1 I
+X B 9 -300 200 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# 157142S12703
+#
+DEF 157142S12703 LED 0 40 Y Y 1 F N
+F0 "LED" 0 -550 50 H V C CNN
+F1 "157142S12703" 0 550 50 H V C CNN
+F2 "project-local:WL-T7DS_19x12x8" 0 -625 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 95 -115 14 0 1 0 F
+T 0 10 95 20 0 1 1 A Normal 0 C C
+T 0 100 65 20 0 1 1 B Normal 0 C C
+T 0 90 -55 20 0 1 1 C Normal 0 C C
+T 0 -10 -85 20 0 1 1 D Normal 0 C C
+T 0 140 -115 20 0 1 1 DP Normal 0 C C
+T 0 -100 -55 20 0 1 1 E Normal 0 C C
+T 0 -90 65 20 0 1 1 F Normal 0 C C
+T 0 0 35 20 0 1 1 G Normal 0 C C
+S -200 500 200 -500 1 1 10 f
+P 2 1 1 20 -60 -15 -70 -95 N
+P 2 1 1 20 -50 -115 30 -115 N
+P 2 1 1 20 -50 105 -60 25 N
+P 2 1 1 20 -40 5 40 5 N
+P 2 1 1 20 -30 125 50 125 N
+P 2 1 1 20 60 -15 50 -95 N
+P 2 1 1 20 70 105 60 25 N
+P 2 1 1 20 350 -65 350 -65 N
+X E 1 -300 -100 100 R 50 50 1 1 I
+X G 10 -300 -300 100 R 50 50 1 1 I
+X D 2 -300 0 100 R 50 50 1 1 I
+X K 3 300 -300 100 L 50 50 1 1 I
+X C 4 -300 100 100 R 50 50 1 1 I
+X DP 5 -300 -400 100 R 50 50 1 1 I
+X B 6 -300 200 100 R 50 50 1 1 I
+X A 7 -300 300 100 R 50 50 1 1 I
+X K 8 300 -400 100 L 50 50 1 1 I
+X F 9 -300 -200 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# EXB38V
+#
+DEF EXB38V RA 0 40 Y Y 1 F N
+F0 "RA" -25 250 50 H V C CNN
+F1 "EXB38V" -25 -250 50 H V C CNN
+F2 "project-local:R_Array_EXB38V" -175 375 50 H I C CNN
+F3 "" -175 375 50 H I C CNN
+DRAW
+S -125 200 75 -200 0 1 0 f
+S -100 -125 50 -175 0 1 0 N
+S -100 -25 50 -75 0 1 0 N
+S -100 75 50 25 0 1 0 N
+S -100 175 50 125 0 1 0 N
+X ~ 1 -200 150 100 R 50 50 1 1 P
+X ~ 2 150 150 100 L 50 50 1 1 P
+X ~ 3 -200 50 100 R 50 50 1 1 P
+X ~ 4 150 50 100 L 50 50 1 1 P
+X ~ 5 -200 -50 100 R 50 50 1 1 P
+X ~ 6 150 -50 100 L 50 50 1 1 P
+X ~ 7 -200 -150 100 R 50 50 1 1 P
+X ~ 8 150 -150 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# JS202011CQN
+#
+DEF JS202011CQN SW 0 40 Y Y 1 L N
+F0 "SW" 0 300 50 H V L CNN
+F1 "JS202011CQN" 0 400 50 H V L CNN
+F2 "CK-JS202011CQN-*" 0 500 50 H I L CNN
+F3 "http://www.ckswitches.com/media/1422/js.pdf" 0 600 50 H I L CNN
+F4 "Switch" 0 700 50 H I L CNN "category"
+F5 "SWITCH SLIDE DPDT 300MA 6V" 0 800 50 H I L CNN "digikey description"
+F6 "401-2001-ND" 0 900 50 H I L CNN "digikey part number"
+F7 "yes" 0 1000 50 H I L CNN "lead free"
+F8 "c2eb728c0694243a" 0 1100 50 H I L CNN "library id"
+F9 "C&K" 0 1200 50 H I L CNN "manufacturer"
+F10 "611-JS202011CQN" 0 1300 50 H I L CNN "mouser part number"
+F11 "PTH_DPTD_SW" 0 1400 50 H I L CNN "package"
+F12 "yes" 0 1500 50 H I L CNN "rohs"
+F13 "+85°C" 0 1600 50 H I L CNN "temperature range high"
+F14 "-40°C" 0 1700 50 H I L CNN "temperature range low"
+DRAW
+C 230 -400 20 1 1 0 N
+C 230 0 20 1 1 0 N
+C 370 -500 20 1 1 0 N
+C 370 -300 20 1 1 0 N
+C 370 -100 20 1 1 0 N
+C 370 100 20 1 1 0 N
+P 2 1 1 0 250 -390 390 -330 N
+P 2 1 1 0 250 10 390 70 N
+P 2 1 1 0 310 -330 310 -360 N
+P 2 1 1 0 310 -270 310 -300 N
+P 2 1 1 0 310 -210 310 -240 N
+P 2 1 1 0 310 -150 310 -180 N
+P 2 1 1 0 310 -90 310 -120 N
+P 2 1 1 0 310 -30 310 -60 N
+P 2 1 1 0 310 30 310 0 N
+X 1 1 500 100 100 L 40 0 1 1 U
+X 2 2 100 0 100 R 40 0 1 1 U
+X 3 3 500 -100 100 L 40 0 1 1 U
+X 4 4 500 -300 100 L 40 0 1 1 U
+X 5 5 100 -400 100 R 40 0 1 1 U
+X 6 6 500 -500 100 L 40 0 1 1 U
+ENDDRAW
+ENDDEF
+#
+# LLTW-C193TS5
+#
+DEF LLTW-C193TS5 D 0 40 Y Y 1 F N
+F0 "D" 0 400 50 H V L CNN
+F1 "LLTW-C193TS5" 0 500 50 H V L CNN
+F2 "Lite-On-LTW-C193TS5-*" 0 600 50 H I L CNN
+F3 "" 0 700 50 H I L CNN
+F4 "No" 0 800 50 H I L CNN "automotive"
+F5 "Diode" 0 900 50 H I L CNN "category"
+F6 "White" 0 1000 50 H I L CNN "colour"
+F7 "Optoelectronics" 0 1100 50 H I L CNN "device class L1"
+F8 "LEDs" 0 1200 50 H I L CNN "device class L2"
+F9 "unset" 0 1300 50 H I L CNN "device class L3"
+F10 "LED WHITE CLEAR SMD" 0 1400 50 H I L CNN "digikey description"
+F11 "160-1724-1-ND" 0 1500 50 H I L CNN "digikey part number"
+F12 "20mA" 0 1600 50 H I L CNN "forward current"
+F13 "2.93V" 0 1700 50 H I L CNN "forward voltage"
+F14 "0.55mm" 0 1800 50 H I L CNN "height"
+F15 "Yes" 0 1900 50 H I L CNN "lead free"
+F16 "Top View" 0 2000 50 H I L CNN "led orientation"
+F17 "71mcd" 0 2200 50 H I L CNN "luminous intensity"
+F18 "Lite-On" 0 2300 50 H I L CNN "manufacturer"
+F19 "859-LTW-C193TS5" 0 2400 50 H I L CNN "mouser part number"
+F20 "0603" 0 2500 50 H I L CNN "package"
+F21 "460nm" 0 2600 50 H I L CNN "peak emmision wavelength"
+F22 "75mW" 0 2700 50 H I L CNN "power dissipation"
+F23 "5V" 0 2800 50 H I L CNN "reverse voltage"
+F24 "Yes" 0 2900 50 H I L CNN "rohs"
+F25 "+85°C" 0 3000 50 H I L CNN "temperature range high"
+F26 "-40°C" 0 3100 50 H I L CNN "temperature range low"
+F27 "130°" 0 3200 50 H I L CNN "viewing angle"
+DRAW
+P 2 1 1 0 100 -100 300 0 N
+P 2 1 1 0 100 100 100 -100 N
+P 2 1 1 0 100 100 300 0 N
+P 2 1 1 0 150 120 250 220 N
+P 2 1 1 0 220 80 320 180 N
+P 2 1 1 0 250 220 200 220 N
+P 2 1 1 0 250 220 250 170 N
+P 2 1 1 0 300 100 300 -100 N
+P 2 1 1 0 320 180 270 180 N
+P 2 1 1 0 320 180 320 130 N
+X CATHODE 1 400 0 100 L 40 0 1 1 P
+X ANODE 2 0 0 100 R 40 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LTST-C191KRKT
+#
+DEF LTST-C191KRKT D 0 40 Y Y 1 L N
+F0 "D" 0 400 50 H V L CNN
+F1 "LTST-C191KRKT" 0 500 50 H V L CNN
+F2 "Lite-On-LTST-C191KRKT-*" 0 600 50 H I L CNN
+F3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF" 0 700 50 H I L CNN
+F4 "No" 0 800 50 H I L CNN "automotive"
+F5 "Diode" 0 900 50 H I L CNN "category"
+F6 "Red" 0 1000 50 H I L CNN "colour"
+F7 "Optoelectronics" 0 1100 50 H I L CNN "device class L1"
+F8 "LEDs" 0 1200 50 H I L CNN "device class L2"
+F9 "unset" 0 1300 50 H I L CNN "device class L3"
+F10 "LED RED CLEAR SMD" 0 1400 50 H I L CNN "digikey description"
+F11 "160-1447-1-ND" 0 1500 50 H I L CNN "digikey part number"
+F12 "20mA" 0 1600 50 H I L CNN "forward current"
+F13 "2V" 0 1700 50 H I L CNN "forward voltage"
+F14 "0.65mm" 0 1800 50 H I L CNN "height"
+F15 "Yes" 0 1900 50 H I L CNN "lead free"
+F16 "Top View" 0 2000 50 H I L CNN "led orientation"
+F17 "4e47d8b413dc995f" 0 2100 50 H I L CNN "library id"
+F18 "54mcd" 0 2200 50 H I L CNN "luminous intensity"
+F19 "Lite-On" 0 2300 50 H I L CNN "manufacturer"
+F20 "859-LTST-C191KRKT" 0 2400 50 H I L CNN "mouser part number"
+F21 "0603" 0 2500 50 H I L CNN "package"
+F22 "639nm" 0 2600 50 H I L CNN "peak emmision wavelength"
+F23 "75mW" 0 2700 50 H I L CNN "power dissipation"
+F24 "5V" 0 2800 50 H I L CNN "reverse voltage"
+F25 "Yes" 0 2900 50 H I L CNN "rohs"
+F26 "+85°C" 0 3000 50 H I L CNN "temperature range high"
+F27 "-55°C" 0 3100 50 H I L CNN "temperature range low"
+F28 "130°" 0 3200 50 H I L CNN "viewing angle"
+F29 "631nm" 0 3300 50 H I L CNN "wavelength"
+DRAW
+P 2 1 1 0 100 -100 300 0 N
+P 2 1 1 0 100 100 100 -100 N
+P 2 1 1 0 100 100 300 0 N
+P 2 1 1 0 150 120 250 220 N
+P 2 1 1 0 220 80 320 180 N
+P 2 1 1 0 250 220 200 220 N
+P 2 1 1 0 250 220 250 170 N
+P 2 1 1 0 300 100 300 -100 N
+P 2 1 1 0 320 180 270 180 N
+P 2 1 1 0 320 180 320 130 N
+X CATHODE 1 400 0 100 L 40 0 1 1 P
+X ANODE 2 0 0 100 R 40 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LTST-C191TBKT
+#
+DEF LTST-C191TBKT D 0 40 Y Y 1 L N
+F0 "D" 0 400 50 H V L CNN
+F1 "LTST-C191TBKT" 0 500 50 H V L CNN
+F2 "Lite-On-LTST-C191TBKT-*" 0 600 50 H I L CNN
+F3 "https://optoelectronics.liteon.com/upload/download/DS22-2000-230/LTST-C191TBKT.pdf" 0 700 50 H I L CNN
+F4 "No" 0 800 50 H I L CNN "automotive"
+F5 "Diode" 0 900 50 H I L CNN "category"
+F6 "Blue" 0 1000 50 H I L CNN "colour"
+F7 "Optoelectronics" 0 1100 50 H I L CNN "device class L1"
+F8 "LEDs" 0 1200 50 H I L CNN "device class L2"
+F9 "unset" 0 1300 50 H I L CNN "device class L3"
+F10 "LED BLUE CLEAR CHIP SMD" 0 1400 50 H I L CNN "digikey description"
+F11 "160-1647-1-ND" 0 1500 50 H I L CNN "digikey part number"
+F12 "20mA" 0 1600 50 H I L CNN "forward current"
+F13 "3.8V" 0 1700 50 H I L CNN "forward voltage"
+F14 "0.65mm" 0 1800 50 H I L CNN "height"
+F15 "Yes" 0 1900 50 H I L CNN "lead free"
+F16 "Top View" 0 2000 50 H I L CNN "led orientation"
+F17 "ce74eb0115296e3e" 0 2100 50 H I L CNN "library id"
+F18 "28-180mcd" 0 2200 50 H I L CNN "luminous intensity"
+F19 "Lite-On" 0 2300 50 H I L CNN "manufacturer"
+F20 "859-LTST-C191TBKT" 0 2400 50 H I L CNN "mouser part number"
+F21 "0603" 0 2500 50 H I L CNN "package"
+F22 "468nm" 0 2600 50 H I L CNN "peak emmision wavelength"
+F23 "76mW" 0 2700 50 H I L CNN "power dissipation"
+F24 "5V" 0 2800 50 H I L CNN "reverse voltage"
+F25 "Yes" 0 2900 50 H I L CNN "rohs"
+F26 "+80°C" 0 3000 50 H I L CNN "temperature range high"
+F27 "-20°C" 0 3100 50 H I L CNN "temperature range low"
+F28 "130°" 0 3200 50 H I L CNN "viewing angle"
+F29 "475nm" 0 3300 50 H I L CNN "wavelength"
+DRAW
+P 2 1 1 0 200 -100 400 0 N
+P 2 1 1 0 200 100 200 -100 N
+P 2 1 1 0 200 100 400 0 N
+P 2 1 1 0 250 120 350 220 N
+P 2 1 1 0 320 80 420 180 N
+P 2 1 1 0 350 220 300 220 N
+P 2 1 1 0 350 220 350 170 N
+P 2 1 1 0 400 100 400 -100 N
+P 2 1 1 0 420 180 370 180 N
+P 2 1 1 0 420 180 420 130 N
+X CATHODE 1 500 0 100 L 40 0 1 1 P
+X ANODE 2 100 0 100 R 40 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PTS526SK15SMTR2LFS
+#
+DEF PTS526SK15SMTR2LFS SW 0 40 Y Y 1 L N
+F0 "SW" 0 100 50 H V L CNN
+F1 "PTS526SK15SMTR2LFS" 0 200 50 H V L CNN
+F2 "CK-PTS526SK15SMTR2LFS-0-0-*" 0 300 50 H I L CNN
+F3 "https://www.ckswitches.com/media/2780/pts526.pdf" 0 400 50 H I L CNN
+F4 "No" 0 500 50 H I L CNN "automotive"
+F5 "Switch" 0 600 50 H I L CNN "category"
+F6 "50mA" 0 700 50 H I L CNN "contact current rating"
+F7 "100mΩ" 0 800 50 H I L CNN "contact resistance"
+F8 "Electromechanical" 0 900 50 H I L CNN "device class L1"
+F9 "Switches" 0 1000 50 H I L CNN "device class L2"
+F10 "Tactile Switches" 0 1100 50 H I L CNN "device class L3"
+F11 "TACT 5.2 X 5.2, 1.5 MM H, 260GF," 0 1200 50 H I L CNN "digikey description"
+F12 "CKN12221-1-ND" 0 1300 50 H I L CNN "digikey part number"
+F13 "200000Cycles" 0 1400 50 H I L CNN "electromechanical life"
+F14 "1.65mm" 0 1500 50 H I L CNN "height"
+F15 "Yes" 0 1600 50 H I L CNN "lead free"
+F16 "077fdda399d33f58" 0 1700 50 H I L CNN "library id"
+F17 "C&K" 0 1800 50 H I L CNN "manufacturer"
+F18 "611-PTS526SK15SMR2L" 0 1900 50 H I L CNN "mouser part number"
+F19 "250gf" 0 2000 50 H I L CNN "operating force"
+F20 "SMT_TACT-SWITCH" 0 2100 50 H I L CNN "package"
+F21 "Yes" 0 2200 50 H I L CNN "rohs"
+F22 "0mm" 0 2300 50 H I L CNN "standoff height"
+F23 "+70°C" 0 2400 50 H I L CNN "temperature range high"
+F24 "-20°C" 0 2500 50 H I L CNN "temperature range low"
+F25 "SPST-NO" 0 2600 50 H I L CNN "throw configuration"
+F26 "12V" 0 2700 50 H I L CNN "voltage rating DC"
+DRAW
+C 130 -100 20 1 1 0 N
+C 270 -100 20 1 1 0 N
+P 2 1 1 0 0 -100 100 -100 N
+P 2 1 1 0 150 -90 250 -30 N
+P 2 1 1 0 400 -100 300 -100 N
+X 1 1 0 0 200 D 40 0 1 1 P
+X 2 2 0 -200 200 U 40 0 1 1 P
+X 3 3 400 0 200 D 40 0 1 1 P
+X 4 4 400 -200 200 U 40 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

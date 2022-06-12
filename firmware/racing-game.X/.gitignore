@@ -1,0 +1,7 @@
+# Files ignored according to https://microchipdeveloper.com/faq:72
+/.generated_files/
+/build/
+/dist/
+/nbproject/private/
+/nbproject/Makefile-*
+/nbproject/Package-*

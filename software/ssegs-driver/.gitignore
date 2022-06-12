@@ -1,0 +1,12 @@
+# macOS
+._*
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+/.vscode/
+
+# build artifacts
+/build/
+/sseg-driver
