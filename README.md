@@ -44,6 +44,6 @@ Other resources
 
 The project is described in two blog posts in the E14 community.
 
-* The [first post](#);
+* The [first post](https://community.element14.com/challenges-projects/project14/7segmentdisplay/b/blog/posts/stranger-segs);
 
-* The [second post](#).
+* The [second post](https://community.element14.com/challenges-projects/project14/7segmentdisplay/b/blog/posts/stranger-segs---season-two).
