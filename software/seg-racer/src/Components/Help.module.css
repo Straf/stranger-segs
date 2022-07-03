@@ -1,0 +1,31 @@
+.help {
+    margin: 1em auto;
+}
+
+.h2 {
+    color: darkslategrey;
+    cursor: pointer;
+    text-align: center;
+}
+.h2:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.p {
+    line-height: 120%;
+    margin-bottom: 0.5em;
+}
+
+.text {
+    max-width: 320px;
+    text-align: justify;
+}
+
+.hidden {
+    display: none;
+}
+
+.arrow {
+    font-size: 0.8em;
+}
