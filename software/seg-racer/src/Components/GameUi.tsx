@@ -23,7 +23,7 @@ const GameUi = ({ pressed, segments, onPress, onRelease }: GameUiProps) => {
                 if (event.key === ' ') onRelease?.();
              }}>
             <h1 className={styles.h1}>Seg Racer</h1>
-            <p>Simulation of a minimalistic electronic game.</p>
+            <p>Emulation of a minimalistic electronic game.</p>
             <div className={styles.game}>
                 <Display width="150px" height="150px" segments={segments} />
                 <Switch pressed={pressed} onPress={onPress} onRelease={onRelease} />

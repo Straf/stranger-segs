@@ -1,6 +1,7 @@
 {
   "name": "seg-racer",
   "version": "1.0",
+  "homepage": "https://straf.github.io/stranger-segs-game-demo",
   "private": true,
   "dependencies": {
     "@types/node": "^16.0",
